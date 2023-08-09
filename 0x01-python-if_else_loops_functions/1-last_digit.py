@@ -1,14 +1,14 @@
 #!/usr/bin/python3
 import random
 
-num = random.randint(-10000, 10000)
+number = random.randint(-10000, 10000)
 
-if num >= 0:
-    last_digit = num % 10
+if number >= 0:
+    last_digit = number % 10
 else:
-    last_digit = ((num * -1) % 10) * -1
+    last_digit = ((number * -1) % 10) * -1
 
-result_message = "Last digit of %d is %d and is" % (num, last_digit)
+result_message = "Last digit of %d is %d and is" % (number, last_digit)
 
 if last_digit == 0:
     print(result_message, "0")
