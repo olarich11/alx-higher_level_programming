@@ -1,4 +1,7 @@
 #!/usr/bin/python3
 
 for num in range(0, 99):
-    print("{:d} = 0x{:x}".format(num, num), end='\n' if num != 98 else '')
+    if num != 98:
+        print("{:d} = 0x{:x}".format(num, num))
+    else:
+        print("{:d} = 0x{:x}".format(num, num), end='\n')
