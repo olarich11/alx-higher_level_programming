@@ -7,7 +7,7 @@ class Square:
     def __init__(self, size=0):
         """Initialize a new Square.
         Args:
-            size (int, optional): The size of the new square. Defaults to 0.
+            size (int, optional): The size of the new square.
         Raises:
             TypeError: If size is not an integer.
             ValueError: If size is less than 0.
