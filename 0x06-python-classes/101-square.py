@@ -15,12 +15,10 @@ class Square:
         self.size = size
         self.position = position
 
-
     @property
     def size(self):
         """Get/set the current size of the square."""
         return (self.__size)
-
 
     @size.setter
     def size(self, value):
@@ -30,12 +28,10 @@ class Square:
             raise ValueError("size must be >= 0")
         self.__size = value
 
-
     @property
     def position(self):
         """Get/set the current position of the square."""
         return (self.__position)
-
 
     @position.setter
     def position(self, value):
@@ -57,7 +53,6 @@ class Square:
         if self.__size == 0:
             print("")
             return
-
 
         [print("") for i in range(0, self.__position[1])]
         for i in range(0, self.__size):
