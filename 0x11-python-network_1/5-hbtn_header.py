@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """Showcases the X-Request-Id header variable from a request to a specified URL.
+
 """
 import sys
 import requests
